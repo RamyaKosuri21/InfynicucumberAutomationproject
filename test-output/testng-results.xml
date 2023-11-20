@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-18T15:34:22 CST" name="Default suite" finished-at="2023-11-18T15:34:31 CST" duration-ms="9179">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Infynicucumberautomation.runners.Runner@7fd50002]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-11-18T15:34:22 CST" name="Default test" finished-at="2023-11-18T15:34:31 CST" duration-ms="9179">
+      <class name="Infynicucumberautomation.runners.Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Infynicucumberautomation.runners.Runner@7fd50002]" started-at="2023-11-18T15:34:22 CST" name="setUpClass" finished-at="2023-11-18T15:34:23 CST" duration-ms="581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@59d0cdb6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Infynicucumberautomation.runners.Runner@7fd50002]" started-at="2023-11-18T15:34:23 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-18T15:34:28 CST" duration-ms="4996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should not login with Invalid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["This feature runs for login page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Infynicucumberautomation.runners.Runner@7fd50002]" started-at="2023-11-18T15:34:28 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-18T15:34:31 CST" duration-ms="3494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should not login with Invalid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["This feature runs for login page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Infynicucumberautomation.runners.Runner@7fd50002]" started-at="2023-11-18T15:34:31 CST" name="tearDownClass" finished-at="2023-11-18T15:34:31 CST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Infynicucumberautomation.runners.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
